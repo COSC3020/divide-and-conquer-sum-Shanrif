@@ -15,7 +15,7 @@ function divideAndConquerSum(a) {
     }
     let left = a.slice(0, a.length/3),
     middle = a.slice(a.length/3, ((2 * (a.length/3)))),
-    right = arr.slice(((2 * (a.length/3)), arr.length));
+    right = arr.slice(((2 * (a.length/3)), a.length));
     
     return sum(left) + sum(middle) + sum(right);
 }
