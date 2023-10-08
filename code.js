@@ -28,7 +28,7 @@ function sum(array)
         return 0;
     }
     else {
-        return array[0] + sum(array.slice(1))
+        return array[0] + sum(array.slice(1));
     }
 }
 
