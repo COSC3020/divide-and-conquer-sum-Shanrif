@@ -22,7 +22,7 @@ function divideAndConquerSum(a) {
 
 function sum(array)
 {
-    if (array.length == 0) 
+    if (array.length === 0) 
     {
         return 0;
     }
