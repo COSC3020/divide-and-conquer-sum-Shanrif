@@ -13,7 +13,7 @@ function divideAndConquerSum(a) {
     { 
         return a[0] + a[1];
     }
-    // I'm not sure if this is properly splitting my function into three? 
+    // I'm not sure if this is properly splitting my array into three? 
     let left = a.slice(0, (a.length/3)),
     middle = a.slice((a.length/3), ((2 * (a.length/3)))),
     right = a.slice(((2 * (a.length/3)), a.length));
