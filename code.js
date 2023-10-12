@@ -13,6 +13,10 @@ function divideAndConquerSum(a) {
     { 
         return a[0] + a[1];
     }
+    else if (a.length = 3)
+    {
+        return a[0] + a[1] + a[2];
+    }
     // I'm not sure if this is properly splitting my array into three? 
     let left = a.slice(0, (a.length/3)),
     middle = a.slice(((a.length/3)), ((2 * (a.length/3)))),
